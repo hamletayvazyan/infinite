@@ -46,8 +46,28 @@ body {
     transform-style: preserve-3d;
     position: absolute;
     top: 0;
-    left: 64.99%;
+    left: 64.98%;
     height: 100%;
+}
+.left-btn{
+    position: absolute;
+    bottom: 33%;
+    left: 21%;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.15);
+}
+.right-btn{
+    position: absolute;
+    bottom: 33%;
+    left: 76%;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.15);
+}
+.left-btn::before{
+    content: ' \276E';
+}
+.right-btn::before{
+    content: ' \276F';
 }
 .street {
     width: 30%;
